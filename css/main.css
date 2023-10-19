@@ -1,0 +1,147 @@
+/* home*/
+.site-header {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color: white;
+    text-align: center;
+    background-color: #00000045;
+    height: 100vh;
+    margin-left: 162px;
+}
+.portfolio{
+  margin-right: 75%;
+  text-decoration:underline;
+}
+.contact{
+
+ margin-right: 15%;
+  margin-top: -3%;
+}
+
+.msg{
+  margin-top: 10%;
+  margin-right: 15%;
+  color: #ffffff;
+}
+
+.email{
+  margin-right: 15%;
+  margin-top: 9%;
+}
+
+
+.profile-pic{
+    border-radius: 30%;    
+    height: 220px;
+    width: 200px;
+    box-shadow: rgb(255, 255, 255) 5px 5px 10px;
+  
+  }
+
+body{
+    margin: 0;
+   
+}
+
+/*Style the sidebar - fixed full height */
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 10;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+  border: 2px solid #ffffff;
+  background-color:  #00000045;
+  
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 16px 8px 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #c1c1c18e;
+    color: white;
+}
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #000000;
+}
+
+
+/* Style the main content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+/*Style the sidebar - fixed full height */
+.sidebar2 {
+    height: 100%;
+    width: 160px;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    border: 2px solid #ffffff;
+    background-color: #00000045;
+  }
+  
+  /* Style sidebar links */
+  .sidebar2 a {
+    padding: 16px 8px 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  /* Active/current link */
+  .sidebar2 a.active {
+      background-color: #c1c1c15e;
+      color: white;
+  }
+  /* Style links on mouse-over */
+  .sidebar2 a:hover {
+    color: hsl(205, 100%, 50%);
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+.head{
+  font-size: 300%;
+  font-weight: bolder;
+  text-align: right;
+}
+
