@@ -10,7 +10,13 @@
     background-color: #00000045;
     height: 100vh;
     margin-left: 162px;
+    margin-right: 0px;
+    
+}
 
+.descr{
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 
