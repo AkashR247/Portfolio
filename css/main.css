@@ -10,26 +10,41 @@
     background-color: #00000045;
     height: 100vh;
     margin-left: 162px;
+
 }
+
+
+
 .portfolio{
   margin-right: 75%;
   text-decoration:underline;
+  margin-left: 152px;
 }
 .contact{
-
- margin-right: 15%;
+  margin-left: 162px;
+  margin-right: 150px;
   margin-top: -3%;
+  align-items:center;
 }
 
-.msg{
-  margin-top: 10%;
-  margin-right: 15%;
+.linkdin-msg{
+  
+  margin-left: 162px;
+  margin-right: 150px;
+  margin-top: 119px;
+  align-items:center;
   color: #ffffff;
 }
 
+.linkdin-msg a:hover {
+  color: #0041f3;
+}
+
 .email{
-  margin-right: 15%;
-  margin-top: 9%;
+  margin-left: 162px;
+  margin-right: 150px;
+  margin-top: 119px;
+  align-items:center;
 }
 
 
@@ -38,6 +53,7 @@
     height: 220px;
     width: 200px;
     box-shadow: rgb(255, 255, 255) 5px 5px 10px;
+    
   
   }
 
@@ -134,9 +150,18 @@ body{
   }
   
   /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+  @media screen and (max-width: 450px) {
+    .sidebar {padding-top:05px; width: 100px; }
+    .sidebar a {font-size: 14px; }
+    .sidebar2 {padding-top: 5px; width: 100px; }
+    .sidebar2 a {font-size: 14px;}
+    .site-header {font-size: 10px; align-items:center; margin-left: 102px; margin-bottom: 200px; margin-right: 0%;}
+    .profile-pic { height: 110px;
+      width: 100px;}
+    .contact{font-size: 10px;}
+    .linkdin-msg{font-size: 8.5px;}
+    .email{font-size: 10px;}
+    .portfolio{margin-left: 50px;}
   }
   
 .head{
