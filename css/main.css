@@ -9,7 +9,7 @@
     text-align: center;
     background-color: #00000045;
     height: 100vh;
-    margin-left: 162px;
+    margin-left: 206px;
     margin-right: 0px;
     
 }
@@ -24,7 +24,7 @@
 .portfolio{
   margin-right: 75%;
   text-decoration:underline;
-  margin-left: 152px;
+  margin-left: 150px;
 }
 .contact{
   margin-left: 162px;
@@ -71,7 +71,7 @@ body{
 /*Style the sidebar - fixed full height */
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 205px;
   position: fixed;
   top: 10;
   left: 0;
@@ -120,7 +120,7 @@ body{
 /*Style the sidebar - fixed full height */
 .sidebar2 {
     height: 100%;
-    width: 160px;
+    width: 205px;
     position: fixed;   
     top: 0;
     left: 0;
