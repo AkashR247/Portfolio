@@ -7,8 +7,8 @@
     align-items:center;
     color: white;
     text-align: center;
-    background-color: #00000045;
     height: 100vh;
+    background-color: #00000024;
     margin-left: 206px;
     margin-right: 0px;
     
@@ -24,6 +24,7 @@
 .portfolio{
   margin-right: 70%;
   text-decoration:underline;
+  
   
 }
 .contact{
@@ -78,7 +79,7 @@ body{
   overflow-x: hidden;
   padding-top: 0px;
   border: 2px solid #ffffff;
-  background-color:  #00000045;
+  background-color:  #00000079;
   
 }
 
@@ -127,7 +128,7 @@ body{
     overflow-x: hidden;
     padding-top: 0px;
     border: 2px solid #ffffff;
-    background-color: #00000045;
+    background-color: #00000072;
   }
   
   /* Style sidebar links */
@@ -177,3 +178,5 @@ body{
   text-align: right;
 }
 
+
+  
