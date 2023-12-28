@@ -8,10 +8,8 @@
     color: white;
     text-align: center;
     height: 100vh;
-    background-color: #00000024;
-    margin-left: 206px;
-    margin-right: 0px;
-    
+    background-color: #0000002d;
+
 }
 
 .descr{
@@ -22,6 +20,7 @@
 
 
 .portfolio{
+  margin-top: 70px;
   margin-right: 70%;
   text-decoration:underline;
   
@@ -57,20 +56,16 @@
 
 .profile-pic{
     border-radius: 30%;    
-    height: 220px;
-    width: 200px;
+    height: 270px;
+    width: 250px;
     box-shadow: rgb(255, 255, 255) 3px 3px 8px;
     
   
   }
 
-body{
-    margin: 0;
-   
-}
 
 /*Style the sidebar - fixed full height */
-.sidebar {
+/* .sidebar {
   height: 100%;
   width: 205px;
   position: fixed;
@@ -84,23 +79,24 @@ body{
 }
 
 /* Style sidebar links */
-.sidebar a {
+/* .sidebar a {
   padding: 16px 8px 16px 16px;
   text-decoration: none;
   font-size: 20px;
   color: #ffffff;
   display: block;
-}
+} */
 
 /* Active/current link */
-.sidebar a.active {
+/* .sidebar a.active {
     background-color: #c1c1c18e;
     color: white;
-}
+} */
 /* Style links on mouse-over */
-.sidebar a:hover {
+/* .sidebar a:hover {
   color: #000000;
-}
+}  */
+
 
 
 /* Style the main content */
@@ -119,7 +115,7 @@ body{
 
 
 /*Style the sidebar - fixed full height */
-.sidebar2 {
+/* .sidebar2 {
     height: 100%;
     width: 205px;
     position: fixed;   
@@ -129,32 +125,29 @@ body{
     padding-top: 0px;
     border: 2px solid #ffffff;
     background-color: #00000072;
-  }
+  } */
   
   /* Style sidebar links */
-  .sidebar2 a {
+  /* .sidebar2 a {
     padding: 16px 8px 16px 16px;
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
     display: block;
-  }
+  } */
   
   /* Active/current link */
-  .sidebar2 a.active {
+  /* .sidebar2 a.active {
       background-color: #c1c1c15e;
       color: white;
-  }
+  } */
   /* Style links on mouse-over */
-  .sidebar2 a:hover {
+  /* .sidebar2 a:hover {
     color: hsl(205, 100%, 50%);
-  }
+  } */
   
   /* Style the main content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    padding: 0px 10px;
-  }
+  
   
   /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
   @media screen and (max-width: 450px) {
