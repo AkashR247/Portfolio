@@ -1,175 +1,162 @@
 /* home*/
 .site-header {
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    color: white;
-    text-align: center;
-    height: 100vh;
-    background-color: #0000002d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  height: 460px;
+  background-color: #0000002d;
+  font: size 20px;
 
 }
 
-.descr{
+.descr {
   margin-right: 50px;
   margin-left: 50px;
+  font-size: 20px;
 }
 
 
 
-.portfolio{
-  margin-top: 70px;
+.portfolio {
+  margin-top: 31px;
   margin-right: 70%;
-  text-decoration:underline;
-  
-  
+  text-decoration: underline;
+
+
 }
-.contact{
+
+.contact {
   margin-left: 162px;
   margin-right: 150px;
   margin-top: -3%;
-  align-items:center;
+  align-items: center;
+  font-size: 15px;
+
 }
 
-.linkdin-msg{
-  
+.linkdin-msg {
+
   margin-left: 162px;
   margin-right: 150px;
-  margin-top: 119px;
-  align-items:center;
+  margin-top: 80px;
+  align-items: center;
   color: #ffffff;
+  font-size: 20px;
+
 }
 
 .linkdin-msg a:hover {
-  color: #0041f3;
+  color: #001d7d;
 }
 
-.email{
+.email {
   margin-left: 162px;
   margin-right: 150px;
-  margin-top: 119px;
-  align-items:center;
+  margin-top: 80px;
+  align-items: center;
+  font-size: 15px;
+
 }
 
 
-.profile-pic{
-    border-radius: 30%;    
-    height: 270px;
-    width: 250px;
-    box-shadow: rgb(255, 255, 255) 3px 3px 8px;
-    
-  
+.profile-pic {
+  border-radius: 30%;
+  height: 180px;
+  width: 160px;
+  box-shadow: rgb(255, 255, 255) 3px 3px 8px;
+  transition: 0.5s;
+  transition-delay: 0.1ms;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size)
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
   }
 
-
-/*Style the sidebar - fixed full height */
-/* .sidebar {
-  height: 100%;
-  width: 205px;
-  position: fixed;
-  top: 10;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 0px;
-  border: 2px solid #ffffff;
-  background-color:  #00000079;
-  
-}
-
-/* Style sidebar links */
-/* .sidebar a {
-  padding: 16px 8px 16px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #ffffff;
-  display: block;
+  .sidebar a {
+    font-size: 18px;
+  }
 } */
 
-/* Active/current link */
-/* .sidebar a.active {
-    background-color: #c1c1c18e;
-    color: white;
-} */
-/* Style links on mouse-over */
-/* .sidebar a:hover {
-  color: #000000;
-}  */
 
 
 
 /* Style the main content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  padding: 0px 10px;
-}
+
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+@media screen and (max-width: 450px) {
+  /* .sidebar {
+    padding-top: 05px;
+    width: 100px;
+  }
+
+  .sidebar a {
+    font-size: 12.7px;
+  }
+
+  .sidebar2 {
+    padding-top: 5px;
+    width: 100px;
+  }
+
+  .sidebar2 a {
+    font-size: 12.7px;
+  } */
+
+  .site-header {
+    font-size: 10px;
+    align-items: center;
+    margin-left: 102px;
+    margin-bottom: 200px;
+    margin-right: 0%;
+  }
+
+  .profile-pic {
+    height: 110px;
+    width: 100px;
+  }
+
+  .contact {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  .linkdin-msg {
+    font-size: 10.5px;
+  }
+
+  .email {
+    font-size: 13px;
+  }
+
+  .portfolio {
+    margin-left: 50px;
+  }
+
+  .descr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
-
-
-
-/*Style the sidebar - fixed full height */
-/* .sidebar2 {
-    height: 100%;
-    width: 205px;
-    position: fixed;   
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 0px;
-    border: 2px solid #ffffff;
-    background-color: #00000072;
-  } */
+.head {
   
-  /* Style sidebar links */
-  /* .sidebar2 a {
-    padding: 16px 8px 16px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    display: block;
-  } */
-  
-  /* Active/current link */
-  /* .sidebar2 a.active {
-      background-color: #c1c1c15e;
-      color: white;
-  } */
-  /* Style links on mouse-over */
-  /* .sidebar2 a:hover {
-    color: hsl(205, 100%, 50%);
-  } */
-  
-  /* Style the main content */
-  
-  
-  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  @media screen and (max-width: 450px) {
-    .sidebar {padding-top:05px; width: 100px; }
-    .sidebar a {font-size: 12.7px; }
-    .sidebar2 {padding-top: 5px; width: 100px; }
-    .sidebar2 a {font-size: 12.7px;}
-    .site-header {font-size: 10px; align-items:center; margin-left: 102px; margin-bottom: 200px; margin-right: 0%;}
-    .profile-pic { height: 110px;
-      width: 100px;}
-    .contact{font-size: 13px; margin-top: 20px;}
-    .linkdin-msg{font-size: 10.5px;}
-    .email{font-size: 13px;}
-    .portfolio{margin-left: 50px;}
-    .descr{margin-left: 20px; margin-right: 20px;}
-  }
-  
-.head{
-  font-size: 300%;
-  font-weight: bolder;
   text-align: right;
 }
-
-
-  
